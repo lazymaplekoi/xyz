@@ -1,0 +1,94 @@
+    @font-face {
+        font-family: 'Minecraftia';
+        font-style: normal;
+        font-weight: normal;
+        src: url('assets/Minecraftia.ttf');
+    }
+    
+     :root {
+        --font-size-responsive: calc(13px + 0.390625vw);
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        background-color: #F9E9E0;
+        text-align: center;
+        color: #292F33;
+        line-height: 1.5;
+        font-size: var(--font-size-responsive);
+        text-transform: lowercase;
+    }
+    
+    a,
+    a:active,
+    a:visited {
+        text-decoration: none;
+        font-weight: 500;
+        color: #5C913B;
+        font-weight: 500;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    h1 {
+        font-size: calc(2.5 * var(--font-size-responsive));
+        letter-spacing: calc(0.05 * var(--font-size-responsive));
+        color: #5C913B;
+        margin-bottom: 1rem;
+        font-weight: 500;
+    }
+    
+    i {
+        margin-right: 9px;
+        color: #77B255;
+    }
+    
+    .pixel {
+        font-family: 'Minecraftia';
+    }
+    
+    .icon {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .obscure {
+        font-size: 0.75rem;
+        margin-top: 2px;
+    }
+    
+    .obscure i {
+        margin-left: 2px;
+    }
+    
+    .content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.8rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+        text-transform: lowercase;
+        line-height: 16px;
+    }
